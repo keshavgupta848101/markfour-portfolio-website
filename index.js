@@ -1,0 +1,1 @@
+console.log("The site will be updated soon")
