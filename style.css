@@ -1,170 +1,154 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 :root {
-    --primary-color:tomato;
-    --dark-gray:#374151;
-    --off-white:#F3F4F6;
+  --primary-color: tomato;
+  --dark-gray: #374151;
+  --off-white: #f3f4f6;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0rem;
+  font-family: "Montserrat", sans-serif;
+  margin: 0rem;
 }
 
-.description{
-    font-size: medium;
-    text-align: center;
-    font-weight: bold;
+.description {
+  font-size: medium;
+  text-align: center;
+  font-weight: bold;
 }
 
 .blog-center {
-    max-width: 600px;
-    margin: auto;
-    display: block;
-    font-size: large;
-    padding: 2rem;
-    letter-spacing:0ch;
+  max-width: 600px;
+  margin: auto;
+  display: block;
+  font-size: large;
+  padding: 2rem;
+  letter-spacing: 0ch;
 }
 
-
 /* hr */
-hr,br {
-    margin: 3rem 0rem;
+hr,
+br {
+  margin: 3rem 0rem;
 }
 
 /* container */
 .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
-
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .container-center {
-    max-width: 600px;
-    margin: auto;
+  max-width: 600px;
+  margin: auto;
 }
 
 /* links */
 
 .link {
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    color: white;
-    
-
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: white;
 }
 
 .primary-link {
-
-    background-color: var(--primary-color);
-    border-radius: 0.2rem;
-
-   
+  background-color: var(--primary-color);
+  border-radius: 0.2rem;
 }
 
 .secondary-link {
-    color: var(--primary-color);
-    border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
-
-
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
 }
-
 
 /* lists */
 
 .list-non-bullet {
-    list-style: none;
+  list-style: none;
 }
 
 .list-item-inline {
-    display: inline;
-    padding: 0rem 0.5rem;
-
+  display: inline;
+  padding: 0rem 0.5rem;
 }
 
 /* navigation */
 .navigation {
-    background-color: var(--primary-color);
-    color: white;
-    padding:1rem;
-    /* updated border radius to get flat round corner at header */
-    border-bottom-left-radius: 0.1rem; 
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  /* updated border radius to get flat round corner at header */
+  border-bottom-left-radius: 0.1rem;
 }
 
-.nav-brand{
-font-weight: bold;
-font-size: 1.1rem;
-
+.nav-brand {
+  font-weight: bold;
+  font-size: 1.1rem;
 }
-.nav-pills{
-    text-align: right;
+.nav-pills {
+  text-align: right;
 }
 
-.navlink{
-   
-    text-decoration: none;
-    color: #ffffff;
-
-
+.navlink {
+  text-decoration: none;
+  color: #ffffff;
 }
-.link-active{
-    font-weight: bold;
-    text-decoration: none;
+.link-active {
+  font-weight: bold;
+  text-decoration: none;
 }
 
 /* header */
 
-.hero{
-    padding: 2rem;
+.hero {
+  padding: 2rem;
 }
-.hero .hero-image{
-    max-width: 350px;
-    display: block;
-   margin: auto;
+.hero .hero-image {
+  max-width: 350px;
+  display: block;
+  margin: auto;
 }
 
 .hero .hero-heading {
-    text-align: center;
-    padding-top: 1rem;
-    color: var(--dark-gray);
-    font-size: 2rem;
-    font-weight: bold;
-    margin: auto;
-    
+  text-align: center;
+  padding-top: 1rem;
+  color: var(--dark-gray);
+  font-size: 2rem;
+  font-weight: bold;
+  margin: auto;
 }
-.hero .hero-heading .heading-inverted{
-    color: var(--primary-color);
+.hero .hero-heading .heading-inverted {
+  color: var(--primary-color);
 }
 
 /* sections */
-.section{
-    padding: 2rem;
+.section {
+  padding: 2rem;
 }
-.section h1{
-    text-align: center;
-   
+.section h1 {
+  text-align: center;
 }
 
-.ow{
-    background-color: var(--off-white);
+.ow {
+  background-color: var(--off-white);
 }
 
 /* footer */
 
-.footer{
-    background-color: var(--primary-color);
-    padding: 2rem 1rem;
-    text-align: center;
-    color: white;
-      /* updated border radius to get flat round corner at footer */
-    border-top-right-radius: 0.1rem;
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  /* updated border radius to get flat round corner at footer */
+  border-top-right-radius: 0.1rem;
 }
 
-.footer .footer-header{
-    font-weight: bold;
-    font-size: large;
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
 }
-.footer .link{
-    color: white;
+.footer .link {
+  color: white;
 }
